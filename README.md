@@ -10,3 +10,6 @@ PID Controller for abstacle avoiding robot
 Microcontroller: ESP32<br>
 Feedback Module: Digital IR sensors (5)<br>
 Other Module: LCD, LM298 <br>
+
+## Working
+Five digital IR sensors are used for poition and obstacle feedback of robot which then is sent to ESP32 and PID is implimented finally the results are displayed on the LCD.
